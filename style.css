@@ -1,0 +1,17 @@
+.heart {
+  position: fixed;
+  bottom: -50px;
+  font-size: 24px;
+  animation: rise 5s linear infinite;
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
